@@ -49,7 +49,7 @@
 }
 
 @media only screen and (max-width: 993px) {
-  .qwe {
+  .nav_1 {
     display: none;
   }
 }
@@ -61,4 +61,4 @@
     left: 156px !important;
   }
 }
-/*# sourceMappingURL=Nav.css.map */
+/*# sourceMappingURL=Navbar.css.map */

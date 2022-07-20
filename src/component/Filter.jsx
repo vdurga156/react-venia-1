@@ -4,7 +4,7 @@ import "../Style/Filter.scss"
 
 function Filter() {
     return (
-         <div className='filterone'>
+         <div className='filters_1'>
                     <div className='filter'>
                         <h6>Filters</h6>
                     </div>
@@ -19,7 +19,7 @@ function Filter() {
                         <label>Option</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
                         <label>Option</label> <br />
-                        <div className='showmor'>
+                        <div className='more'>
                             <a href="#show" class="">
                                 show more
                             </a>
@@ -48,23 +48,23 @@ function Filter() {
                         <div>
                             <h6>Color</h6>
                         </div>
-                        <div className='colorfilter'>
-                            <div class="red_div"></div><br />
-                            <div class="red_div1"></div>
-                            <div class="red_div2"></div>
-                            <div class="red_div3"></div>
+                        <div className='filter_colors'>
+                            <div class="btnclr"></div><br />
+                            <div class="btnclr1"></div>
+                            <div class="btnclr2"></div>
+                            <div class="btnclr3"></div>
                         </div>
                         <br />
-                        <div className='colorfilter'>
-                            <div class="red_div4"></div><br />
-                            <div class="red_div5"></div>
-                            <div class="red_div6"></div>
-                            <div class="red_div7"></div>
+                        <div className='filter_colors'>
+                            <div class="btnclr4"></div><br />
+                            <div class="btnclr5"></div>
+                            <div class="btnclr6"></div>
+                            <div class="btnclr7"></div>
                         </div>
                         <br />
-                        <div className='colorfilter'>
-                            <div class="red_div8"></div><br />
-                            <div class="red_div9"></div>
+                        <div className='filter_colors'>
+                            <div class="btnclr"></div><br />
+                            <div class="btnclr9"></div>
                             
 
                         </div>

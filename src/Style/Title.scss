@@ -1,12 +1,12 @@
-.herosection{
+.hero-sec{
   font-family: 'Source Serif Pro', serif;
 }
 
-.herosection .card-body {
+.hero-sec .card_1_body {
     height: 17rem;
     background-color: #1B252C;
   }
-  .herosection .card-title {
+  .hero-sec .card_1_title {
     color: white;
     text-align: center;
     padding-top: 4rem;
@@ -21,7 +21,7 @@
     width: 122px;
     margin-left: 81px;
   }
-  .herosection{
+  .hero-sec{
     padding-top: 33px;
     padding-bottom: 12px;
   }
@@ -40,29 +40,29 @@
   
 
   @media only screen and (min-width: 320px) and (max-width: 765px) {
-    .mnb{
+    .main{
       display:none;
     }
     .awq{
       display:block;
     }
 
-    .cardone{
+    .card_1{
       margin-top: -77px;
       margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
     }
-    .herosection .card-body {
+    .hero-sec .card_1_body {
       height: 11rem;
       background-color: #1B252C;
   }
-  .herosection .card-title {
+  .hero-sec .card_1_title {
     
     padding-top: 0rem;
   
   }
-  .herosection {
+  .hero-sec {
     padding-top: 3px; 
   }
  
@@ -70,29 +70,29 @@
   }
 
   @media only screen and (min-width: 766px) and (max-width: 1020px) {
-    .mnb{
+    .main{
       display:none;
     }
     .awq{
       display:block;
     }
 
-    .cardone{
+    .card_1{
       margin-top: -77px;
       margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
     }
-    .herosection .card-body {
+    .hero-sec .card_1_body {
       height: 11rem;
       background-color: #1B252C;
   }
-  .herosection .card-title {
+  .hero-sec .card_1_title {
     
     padding-top: 0rem;
   
   }
-  .herosection {
+  .hero-sec{
     padding-top: 3px; 
   }
   .lines hr {

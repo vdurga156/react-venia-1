@@ -1,4 +1,4 @@
-.Sizebutton button {
+.btnsize button {
   border-radius: 5px;
   width: 55px;
   height: 35px;
@@ -34,24 +34,24 @@
   margin-right: 10px;
 }
 
-.Details h6 {
+.Dtl h6 {
   padding-left: 20px;
 }
 
-.Details h5 {
+.Dtl h5 {
   padding-left: 15px;
 }
 
-.detailsone h6 {
+.dtl_1 h6 {
   padding-left: 20px;
   padding-top: 25px;
 }
 
-.detailstwo {
+.dtl_2 {
   padding-top: 0px !important;
 }
 
-.addtocart {
+.cart-add {
   width: 300px;
   height: 40px;
   background: var(--primary-brand) 0% 0% no-repeat padding-box;
@@ -60,7 +60,7 @@
   opacity: 1;
 }
 
-.save a {
+.share a {
   text-decoration: none;
   color: #172026;
   font-size: 20px;
@@ -68,11 +68,11 @@
   padding-right: 25px;
 }
 
-.save {
+.share {
   padding-left: 90px;
 }
 
-.addtocart {
+.cart-add {
   color: white;
   border: none;
 }
@@ -95,7 +95,7 @@ p {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 766px) {
-  .Sizebutton button {
+  .btnsize button {
     width: 47px;
   }
   .oneprice img {
@@ -105,13 +105,13 @@ p {
   .Sweat-wicking h5 {
     padding-left: 116px;
   }
-  .Details h5 {
+  .Dtl h5 {
     padding-left: 119px;
   }
-  .Details h6 {
+  .Dtl h6 {
     padding-left: 3px;
   }
-  .detailsone {
+  .dtl_1 {
     padding-left: 127px;
     margin-top: -73px;
     margin-bottom: -96px;

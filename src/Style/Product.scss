@@ -6,7 +6,7 @@
 $blackcolor: #172026;
 
 
-.Sizebutton button {
+.btnsize button {
     border-radius: 5px;
     width: 55px;
     height: 35px;
@@ -38,24 +38,24 @@ $blackcolor: #172026;
     @include swatchcolor(#B5B8BA)
 }
 
-.Details h6 {
+.Dtl h6 {
     padding-left: 20px;
 }
 
-.Details h5 {
+.Dtl h5 {
     padding-left: 15px;
 }
 
-.detailsone h6 {
+.dtl_1 h6 {
     padding-left: 20px;
     padding-top: 25px;
 }
 
-.detailstwo {
+.dtl_2 {
     padding-top: 0px !important;
 }
 
-.addtocart {
+.cart-add {
     width: 300px;
     height: 40px;
 
@@ -65,7 +65,7 @@ $blackcolor: #172026;
     opacity: 1;
 }
 
-.save a {
+.share a {
     text-decoration: none;
     color: $blackcolor;
     font-size: 20px;
@@ -73,11 +73,11 @@ $blackcolor: #172026;
     padding-right: 25px;
 }
 
-.save {
+.share {
     padding-left: 90px;
 }
 
-.addtocart {
+.cart-add {
     color: white;
     border: none;
 }
@@ -106,7 +106,7 @@ p {
 @media only screen and (min-width: 320px) and (max-width: 766px) {
   
 
-    .Sizebutton button {
+    .btnsize button {
 
         width: 47px;
     }
@@ -114,19 +114,16 @@ p {
      height:270px;
      width: 270px;
     }
-    // .Sweat-wicking h4 {
-    //   padding-left: 70px;
-    // }
     .Sweat-wicking h5 {
         padding-left: 116px;
       }
-      .Details h5 {
+      .Dtl h5 {
         padding-left: 119px;
     }
-    .Details h6 {
+    .Dtl h6 {
         padding-left: 3px;
     }
-    .detailsone{
+    .dtl_1{
         padding-left: 127px;
         margin-top: -73px;
         margin-bottom: -96px;

@@ -1,8 +1,6 @@
 import React from 'react'
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
-import { FiSliders } from "react-icons/fi";
-import { RiArrowUpDownLine } from "react-icons/ri";
 import "../Style/Filter.scss"
 
 function Breadcrumb() {
@@ -33,7 +31,7 @@ function Breadcrumb() {
         <div class="aem-GridColumn aem-GridColumn--default--9">
           <div class="aem-Grid aem-Grid--12">
             <div class="aem-GridColumn aem-GridColumn--default--10">
-              <h6>38 Results</h6>
+              <h6>6 Results</h6>
             </div>
             <div class="aem-GridColumn aem-GridColumn--default--2">
               <select name="Sort by Latest" id="Sort by Latest">
@@ -43,13 +41,12 @@ function Breadcrumb() {
                 <option value="Smart Gear">Smart Gear</option>
                 <option value="rAccessories">Accessories</option>
               </select>
-              {/* <p>38 Results</p> */}
             </div>
           </div>
         </div>
       </div>
-      <div className="mobile">
-        <div className="cato">
+      <div className="multi">
+        <div className="catalog">
           <Breadcrumbs aria-label="breadcrumb">
             <Link underline="hover" color="text.primary" href="/">
               Clothing
@@ -62,7 +59,7 @@ function Breadcrumb() {
             </Link>
           </Breadcrumbs>
         </div>
- <h6>38 Results</h6>
+        <h6>6 Results</h6>
       </div>
     </div>
   )

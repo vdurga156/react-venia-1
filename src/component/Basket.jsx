@@ -4,7 +4,7 @@ import { BiHeart, BiLockAlt } from 'react-icons/bi';
 import { RiPencilLine } from 'react-icons/ri';
 import { FiLock, FiTrash2 } from 'react-icons/fi';
 import Accordian from './Accordian';
-import paypal from '../Images/PP_BTN.png';
+import paypal from '../Images/paypall-button.png';
 export default function Basket(props) {
   const { cartItems, onAdd, onRemove } = props;
   const itemsPrice = cartItems.reduce((a, c) => a + c.qty * c.price, 0);
@@ -87,7 +87,7 @@ export default function Basket(props) {
                   <h6><strong>${totalPrice.toFixed(2)}</strong></h6>
                 </div>
               </div>
-              <div className="buttonsone">
+              <div className="first_button">
                 <div>
                   <button
                     onClick={() => alert("Implement Checkout!")}

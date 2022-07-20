@@ -7,8 +7,6 @@ import Swatchone from '../Images/Swatch 01.png';
 import Swatchtwo from '../Images/Swatch 02.png';
 import Swatchthree from '../Images/Swatch 03.png';
 import Swatchfour from '../Images/Swatch 04.png';
-import { FiSearch } from "react-icons/fi";
-import { GiSlicedBread } from "react-icons/gi";
 import { FaStar } from "react-icons/fa";
 import { FiStar } from "react-icons/fi";
 import { BiShareAlt } from "react-icons/bi";
@@ -89,7 +87,7 @@ const Product = (props) => {
                                 <img src={Swatchthree} className="swatchthree" alt="image2" />
                                 <img src={Swatchfour} className="swatchfour" alt="image2" />
                             </div>
-                            <div className="Sizebutton">
+                            <div className="btnsize">
                                 <h5>Size</h5>
                                 <button type="button" >XS</button>
                                 <button type="button">S</button>
@@ -98,10 +96,10 @@ const Product = (props) => {
                                 <button type="button" >XL</button>
                             </div>
                             <br />
-                            <button className="addtocart"
+                            <button className="cart-add"
                                 onClick={() => onAdd(product)}
                             >Add to Cart</button>
-                            <div className='save'>
+                            <div className='share'>
 
                                 <a href="#">< AiOutlineHeart />save</a>
                                 <a href="#"><BiShareAlt />share</a>
@@ -119,16 +117,16 @@ const Product = (props) => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore dolore magna lorem ipsum dolor sit amet ipsum dolor sit amet, consectetur. Duis tristique sollicitudin nibh sit amet. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus.</p>
                         </div>
                         <div class="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12">
-                            <div className='Details'>
+                            <div className='Dtl'>
                                 <h5> Details</h5>
                                 <h6> < TbLeaf />Sweat-wicking</h6>
                                 <h6> < TbLeaf/>Breathable</h6>
                             </div>
                         </div>
                         <div class="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12">
-                            <div className='detailsone'>
+                            <div className='dtl_1'>
                                 <h6> < TbLeaf />Lightweight fabric</h6>
-                                <h6 className='detailstwo'>< TbLeaf />69% nylon, 31% lycra</h6>
+                                <h6 className='dtl_2'>< TbLeaf />69% nylon, 31% lycra</h6>
                             </div>
                         </div>
                     </div>

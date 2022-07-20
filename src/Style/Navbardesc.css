@@ -19,7 +19,6 @@ body {
 .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
-  /* background-color: aqua; */
 }
 
 .nav-container {
@@ -29,7 +28,7 @@ body {
   height: 62px;
 }
 
-.navbar .menu-items {
+.navbar .menubar {
   display: flex;
   background-color: whitesmoke;
 }
@@ -101,7 +100,7 @@ body {
   transition: transform 0.4s ease-in-out;
 }
 
-.navbar .menu-items {
+.navbar .menubar{
   padding-top: 120px;
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
   height: 97vh;
@@ -115,7 +114,7 @@ body {
   text-align: center;
 }
 
-.navbar .menu-items li {
+.navbar .menubar li {
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
@@ -143,7 +142,7 @@ body {
   left: 60px;
 }
 
-.nav-container input[type="checkbox"]:checked ~ .menu-items {
+.nav-container input[type="checkbox"]:checked ~ .menubar {
   transform: translateX(0);
 }
 
@@ -177,7 +176,7 @@ body {
     left: 22rem;
     bottom: -6px;
   }
-  .navbar .menu-items {
+  .navbar .menubar {
     width: 453%;
   }
 }

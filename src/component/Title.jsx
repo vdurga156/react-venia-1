@@ -1,18 +1,18 @@
 import React from 'react'
-import "../Style/Hero.scss"
+import "../Style/Title.scss"
 
 
 function Title() {
   return (
     <div>
-      <div className='mnb'>
+      <div className='main'>
         <div className='container'>
-          <div className='herosection'>
+          <div className='hero-sec'>
             <div class="aem-Grid aem-Grid--12">
               <div class="aem-GridColumn aem-GridColumn--default--4">
-                <div class="cardone">
-                  <div class="card-body">
-                    <h5 class="card-title">Women's</h5>
+                <div class="card_1">
+                  <div class="card_1_body">
+                    <h5 class="card_1_title">Women's</h5>
                     <div className='lines'>
                       <hr />
                     </div>
@@ -29,7 +29,7 @@ function Title() {
         </div>
       </div>
 
-      <div className='awq herosection'>
+      <div className='awq hero-sec'>
         <div class="aem-Grid aem-Grid--12">
           <div class="aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--phone--12">
             <div class="card-img">
@@ -38,9 +38,9 @@ function Title() {
           </div>
 
           <div class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
-            <div class="cardone">
-              <div class="card-body">
-                <h5 class="card-title">Women's</h5>
+            <div class="card_1">
+              <div class="card_1_body">
+                <h5 class="card_1_title">Women's</h5>
                 <div className='lines'>
                   <hr />
                 </div>

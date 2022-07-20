@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Style/Navbarone.css"
+import "../Style/Navbardesc.css"
 import { FiShoppingBag, FiSearch } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 
@@ -18,7 +18,7 @@ const categories = [{
     displayName: 'Accessories'
 },
 ]
-const Navone = ({ setCategory, selectedCategory, ...props }) => {
+const Navbardesc = ({ setCategory, selectedCategory, ...props }) => {
     return (
         <div className='navbar-one-one'>
             <div class="navbar">
@@ -46,7 +46,7 @@ const Navone = ({ setCategory, selectedCategory, ...props }) => {
                             )}
                         </NavLink>{' '}
                     </div>
-                    <div class="menu-items">
+                    <div class="menubar">
                         <ul className="">
                             {
                                 categories?.map(category =>
@@ -63,4 +63,4 @@ const Navone = ({ setCategory, selectedCategory, ...props }) => {
     )
 }
 
-export default Navone
+export default Navbardesc

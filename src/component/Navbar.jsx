@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Style/Nav.scss"
+import "../Style/Navbar.scss"
 import { NavLink } from "react-router-dom";
 
 import { FiSearch, FiShoppingBag, FiUser } from "react-icons/fi";
@@ -22,7 +22,7 @@ const categories = [{
 ]
 const Navbar = ({ setCategory, selectedCategory, ...props }) => {
     return (
-        <div className='qwe' >
+        <div className='nav_1' >
             <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
                 <div className="container">
                     <NavLink className="navbar-brand fs-4" to="/"><span>V</span>ENIA</NavLink>

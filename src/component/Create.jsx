@@ -81,7 +81,7 @@ class Create extends Component {
               <button type="submit" className="btn btn-primary">Submit</button>
             </div>
 
-            <div className="cancle">
+            <div className="cancel_1">
               <a href="" className="">
                 <Link to="/signout">Cancel</Link>
               </a>
