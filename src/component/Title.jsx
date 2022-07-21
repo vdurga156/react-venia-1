@@ -11,7 +11,7 @@ function Title() {
             <div class="aem-Grid aem-Grid--12">
               <div class="aem-GridColumn aem-GridColumn--default--4">
                 <div class="card_1">
-                  <div class="card_1_body">
+                  <div class="card_1-body">
                     <h5 class="card_1_title">Women's</h5>
                     <div className='lines'>
                       <hr />
@@ -39,7 +39,7 @@ function Title() {
 
           <div class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
             <div class="card_1">
-              <div class="card_1_body">
+              <div class="card_1-body">
                 <h5 class="card_1_title">Women's</h5>
                 <div className='lines'>
                   <hr />

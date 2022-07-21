@@ -2,7 +2,7 @@
   font-family: 'Source Serif Pro', serif;
 }
 
-.hero-sec .card_1_body {
+.hero-sec .card_1-body {
   height: 17rem;
   background-color: #1B252C;
 }
@@ -36,6 +36,7 @@
   width: 25%;
   margin: 2rem 10rem;
   opacity: 3;
+  margin-top: 58px;
 }
 
 .sub {
@@ -55,7 +56,7 @@
     margin-right: 20px;
     margin-bottom: 30px;
   }
-  .hero-sec .card_1_body {
+  .hero-sec .card_1-body {
     height: 11rem;
     background-color: #1B252C;
   }
@@ -80,7 +81,7 @@
     margin-right: 20px;
     margin-bottom: 30px;
   }
-  .hero-sec .card_1_body {
+  .hero-sec .card_1-body {
     height: 11rem;
     background-color: #1B252C;
   }

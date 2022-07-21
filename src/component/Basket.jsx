@@ -33,7 +33,7 @@ export default function Basket(props) {
                   </div>
                 </div>
               </div>
-              <div className="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12 increasebutton">
+              <div className="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12 positive_button">
                 <div class="input-group w-auto align-items-center">
                   <input
                     type="button"
