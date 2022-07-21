@@ -1,9 +1,9 @@
 
 @mixin buttons  ($color){
-    border-radius: 15px 15px;
+    border-radius: 5px;
     background-color: $color;
-    height: 20px;
     width: 64px;
+height: 40px;
 }
 
 .btnclr { 
@@ -52,7 +52,13 @@ label{
     color: #181C24;
     font-size: 14px;
 }
-
+.sort_1{
+    height: 31px;
+    width: 140px;
+    border-radius: 5px;
+    
+  }
+  
 
 .bread .multi{
     display: none;

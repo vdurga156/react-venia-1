@@ -34,7 +34,7 @@ function Breadcrumb() {
               <h6>6 Results</h6>
             </div>
             <div class="aem-GridColumn aem-GridColumn--default--2">
-              <select name="Sort by Latest" id="Sort by Latest">
+              <select name="Sort by Latest" id="Sort by Latest"className='sort_1'>
                 <option value="Sort by Latest">Sort by Latest</option>
                 <option value="Women">Women</option>
                 <option value="Men">Men</option>

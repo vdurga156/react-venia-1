@@ -1,71 +1,71 @@
 .btnclr {
-  border-radius: 15px 15px;
+  border-radius: 5px;
   background-color: #172026;
-  height: 20px;
   width: 64px;
+  height: 40px;
 }
 
 .btnclr1 {
-  border-radius: 15px 15px;
+  border-radius: 5px;
   background-color: #DFE1E2;
-  height: 20px;
   width: 64px;
+  height: 40px;
 }
 
 .btnclr2 {
-  border-radius: 15px 15px;
+  border-radius: 5px;
   background-color: #2D9D78;
-  height: 20px;
   width: 64px;
+  height: 40px;
 }
 
 .btnclr3 {
-  border-radius: 15px 15px;
+  border-radius: 5px;
   background-color: #FDBA5E;
-  height: 20px;
   width: 64px;
+  height: 40px;
 }
 
 .btnclr4 {
-  border-radius: 15px 15px;
+  border-radius: 5px;
   background-color: #7950E8;
-  height: 20px;
   width: 64px;
+  height: 40px;
 }
 
 .btnclr5 {
-  border-radius: 15px 15px;
+  border-radius: 5px;
   background-color: #E34850;
-  height: 20px;
   width: 64px;
+  height: 40px;
 }
 
 .btnclr6 {
-  border-radius: 15px 15px;
+  border-radius: 5px;
   background-color: #6408D3;
-  height: 20px;
   width: 64px;
+  height: 40px;
 }
 
 .btnclr7 {
-  border-radius: 15px 15px;
+  border-radius: 5px;
   background-color: #F9009A;
-  height: 20px;
   width: 64px;
+  height: 40px;
 }
 
 .btnclr8 {
-  border-radius: 15px 15px;
+  border-radius: 5px;
   background-color: #EB7327;
-  height: 20px;
   width: 64px;
+  height: 40px;
 }
 
 .btnclr9 {
-  border-radius: 15px 15px;
+  border-radius: 5px;
   background-color: #57CB76;
-  height: 20px;
   width: 64px;
+  height: 40px;
 }
 
 .filter_colors {
@@ -88,6 +88,12 @@ label {
   padding-top: 20px;
   color: #181C24;
   font-size: 14px;
+}
+
+.sort_1 {
+  height: 31px;
+  width: 140px;
+  border-radius: 5px;
 }
 
 .bread .multi {

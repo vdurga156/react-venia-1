@@ -20,6 +20,10 @@ $navclr:#1B252C;
     font-size: 16px;
     padding-right: 8px;
 }
+.navbar-brand{
+  letter-spacing: 7px;
+  font-size: 25px;
+}
 .cart{
     text-decoration: $login;
     color:$navclr;

@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 function Footer() {
     return (
         <>
+           <hr />
+            <footer className="footer footer-expand-lg -light bg-white py-3 shadow-sm">
             <div class="container">
                 <div class="foot-1">
                     <div class="aem-Grid aem-Grid--12">
@@ -56,8 +58,11 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <hr />
+                </div>
+                </footer>
+            
+           
+            <footer className="footer footer-expand-lg -light bg-white py-3 shadow-sm">
             <div className='container'>
                 <div class="aem-Grid aem-Grid--12 footerdesktop">
                     <div class="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12">
@@ -105,7 +110,14 @@ function Footer() {
                     </div>
 
                 </div>
+            
+            
+            
+            
+            
             </div>
+            </footer>
+            
         </>
     )
 }

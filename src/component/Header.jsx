@@ -11,13 +11,15 @@ function Header({ category }) {
             <div>
                 <Breadcrumb />
             </div>
-            <div class="aem-Grid aem-Grid--12 container">
+          <div className='container'>
+            <div class="aem-Grid aem-Grid--12 ">
                 <div class="aem-GridColumn aem-GridColumn--default--3">
                     <Filter />
                 </div>
                 <div class="aem-GridColumn aem-GridColumn--default--9 aem-GridColumn--phone--12">
                     <Productlist category={category} />
                 </div>
+            </div>
             </div>
         </>
 

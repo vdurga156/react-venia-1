@@ -21,7 +21,7 @@ function Title() {
               </div>
               <div class="aem-GridColumn aem-GridColumn--default--8">
                 <div class="card-img">
-                  <img src="https://tipsmake.com/data/images/collection-of-the-most-beautiful-fashion-banners-picture-4-lkIigJwFz.jpg" class="card-img-top" alt="" />
+                  <img src="https://pbs.twimg.com/media/EfzyANdUcAE9sWC.jpg" class="card-img-top" alt="" />
                 </div>
               </div>
             </div>
@@ -29,11 +29,11 @@ function Title() {
         </div>
       </div>
 
-      <div className='awq hero-sec'>
+      <div className='sub hero-sec'>
         <div class="aem-Grid aem-Grid--12">
           <div class="aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--phone--12">
             <div class="card-img">
-              <img src="https://tipsmake.com/data/images/collection-of-the-most-beautiful-fashion-banners-picture-4-lkIigJwFz.jpg" class="card-img-top" alt="" />
+              <img src="https://pbs.twimg.com/media/EfzyANdUcAE9sWC.jpg" class="card-img-top" alt="" />
             </div>
           </div>
 

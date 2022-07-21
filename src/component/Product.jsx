@@ -51,15 +51,16 @@ const Product = (props) => {
             <>
                 <div className='container'>
                     <div class="aem-Grid aem-Grid--12">
-                    <div class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--12 oneprice">
-                            <img src={product.image} alt={product.title} height="80px" width="80px" />
-                            <img src={product.image} alt={product.title} height="80px" width="80px" />
-                            <img src={product.image} alt={product.title} height="80px" width="80px" />
-                            <img src={product.image} alt={product.title} height="80px" width="80px" />
+                    <div class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--12 fourset">
+                            <img src={product.image} alt={product.title} height="100px" width="80px" />
+                            <img src={product.image} alt={product.title} height="100px" width="80px" />
+                            <img src={product.image} alt={product.title} height="100px" width="80px" />
+                            <img src={product.image} alt={product.title} height="100px" width="80px" />
+                            <img src={product.image} alt={product.title} height="100px" width="80px" />  
                         </div>
 
-                        <div class="aem-GridColumn aem-GridColumn--default--5 aem-GridColumn--phone--12 oneprice">
-                            <img src={product.image} alt={product.title} height="380px" width="380px" />
+                        <div class="aem-GridColumn aem-GridColumn--default--5 aem-GridColumn--phone--12 singleset">
+                            <img src={product.image} alt={product.title}  width="100%" />
                         </div>
                         <div class="aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--phone--12 rating-one">
                             <p>Clothing / Women’s / Outerwear</p>

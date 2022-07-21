@@ -22,6 +22,7 @@ const categories = [{
 ]
 const Navbar = ({ setCategory, selectedCategory, ...props }) => {
     return (
+       
         <div className='nav_1' >
             <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
                 <div className="container">
@@ -55,6 +56,7 @@ const Navbar = ({ setCategory, selectedCategory, ...props }) => {
                 </div>
             </nav>
         </div>
+        
 
     )
 }

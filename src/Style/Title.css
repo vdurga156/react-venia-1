@@ -33,12 +33,12 @@
 .lines hr {
   background-color: #1F39FF !important;
   height: 0.5rem !important;
-  width: 42%;
-  margin: 3rem 6rem;
+  width: 25%;
+  margin: 2rem 10rem;
   opacity: 3;
 }
 
-.awq {
+.sub {
   display: none;
 }
 
@@ -46,7 +46,7 @@
   .main {
     display: none;
   }
-  .awq {
+  .sub {
     display: block;
   }
   .card_1 {
@@ -71,7 +71,7 @@
   .main {
     display: none;
   }
-  .awq {
+  .sub {
     display: block;
   }
   .card_1 {
@@ -93,8 +93,8 @@
   .lines hr {
     background-color: #1F39FF !important;
     height: 0.5rem !important;
-    width: 14%;
-    margin: 3rem 22rem;
+    width: 24%;
+    margin: 2rem 10rem;
     border-radius: 15px 15px;
     opacity: 3;
   }

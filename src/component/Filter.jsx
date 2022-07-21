@@ -4,6 +4,7 @@ import "../Style/Filter.scss"
 
 function Filter() {
     return (
+        <div className='container'>
          <div className='filters_1'>
                     <div className='filter'>
                         <h6>Filters</h6>
@@ -49,22 +50,22 @@ function Filter() {
                             <h6>Color</h6>
                         </div>
                         <div className='filter_colors'>
-                            <div class="btnclr"></div><br />
-                            <div class="btnclr1"></div>
-                            <div class="btnclr2"></div>
-                            <div class="btnclr3"></div>
+                            <button class="btnclr"></button><br />
+                            <button class="btnclr1"></button>
+                            <button class="btnclr2"></button>
+                            <button class="btnclr3"></button>
                         </div>
                         <br />
                         <div className='filter_colors'>
-                            <div class="btnclr4"></div><br />
-                            <div class="btnclr5"></div>
-                            <div class="btnclr6"></div>
-                            <div class="btnclr7"></div>
+                            <button class="btnclr4"></button><br />
+                            <button class="btnclr5"></button>
+                            <button class="btnclr6"></button>
+                            <button class="btnclr7"></button>
                         </div>
                         <br />
                         <div className='filter_colors'>
-                            <div class="btnclr"></div><br />
-                            <div class="btnclr9"></div>
+                            <button class="btnclr"></button><br />
+                            <button class="btnclr9"></button>
                             
 
                         </div>
@@ -92,6 +93,7 @@ function Filter() {
                         <input type="checkbox" id="option" name="option" value="option" />
                         <label>Option</label> <br />
                         <hr />
+                    </div>
                     </div>
                     </div>
     )
