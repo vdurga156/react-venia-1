@@ -13,7 +13,7 @@ function Filter() {
                     <div className='attribute'>
                         <h6>Attribute</h6>
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Extra Small</label> <br />
+                        <label>X-Small</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
                         <label>Small</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
@@ -21,7 +21,7 @@ function Filter() {
                         <input type="checkbox" id="option" name="option" value="option" />
                         <label>Large</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Extra Large</label> <br />
+                        <label>X-Large</label> <br />
                         <div className='more'>
                             <a href="#show" class="">
                                 show more
@@ -32,17 +32,17 @@ function Filter() {
                     <div>
                         <h6>Attribute</h6>
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>OnePlus</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Redmi</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Amazon</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>boAt</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>realme</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Fire-Boltt</label> <br />
                         <hr />
                     </div>
 
@@ -79,21 +79,21 @@ function Filter() {
                     <div>
                         <h6>Attribute</h6>
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Accessories</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Photography</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Vehicle Electronics</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Home AudioHome </label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Portable Media Players</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Tablets</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Portable Media Players</label> <br />
                         <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Option</label> <br />
+                        <label>Vehicle Electronics</label> <br />
                         <hr />
                     </div>
                     </div>
