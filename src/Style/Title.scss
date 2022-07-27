@@ -22,18 +22,18 @@
     margin-left: 81px;
   }
   .hero-sec{
-    padding-top: 33px;
-    padding-bottom: 12px;
+    padding-bottom: 30px;
   }
   
-  .lines hr{
-    background-color: #1F39FF !important;
-    height: 0.5rem !important;
-    width: 25%;
-    margin: 2rem 10rem;
-    opacity: 3;
-    margin-top: 58px;
+  .lines hr {
+    background-color: #E26A2C;
+    margin-left: 11rem;
+    margin-top: 1.3rem;
+   height: 0.5rem !important;
+    width: 22%;
+  opacity: 3;
   }
+  
   .sub{
     display:none;
   }
@@ -66,8 +66,13 @@
   .hero-sec {
     padding-top: 3px; 
   }
- 
-  
+  .lines hr{
+  background-color: #E26A2C;
+    margin-left: 6rem;
+    margin-top: 1.3rem;
+    height: 0.5rem !important;
+    width: 33%;
+    opacity: 3;
   }
 
   @media only screen and (min-width: 766px) and (max-width: 1020px) {
@@ -97,13 +102,15 @@
     padding-top: 3px; 
   }
   .lines hr {
-    background-color: #1F39FF !important;
+    background-color:#E26A2C !important;
     height: 0.5rem !important;
     width: 24%;
-    margin: 2rem 10rem;
+    
     border-radius: 15px 15px;
     opacity: 3;
+    margin-left:8rem;
 }
  
   
+  }
   }

@@ -52,7 +52,7 @@ const Product = (props) => {
                 <div className='container'>
                     <div class="aem-Grid aem-Grid--12">
                     <div class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--12 fourset">
-                            <img src={product.image} alt={product.title} height="100px" width="80px" />
+                            <img src={product.image} alt={product.title} height="100px" width="80px" /><hr/>
                             <img src={product.image} alt={product.title} height="100px" width="80px" />
                             <img src={product.image} alt={product.title} height="100px" width="80px" />
                             <img src={product.image} alt={product.title} height="100px" width="80px" />
@@ -114,27 +114,16 @@ const Product = (props) => {
                 </div>
                 <div className='Producttitle'>
                     <div class="aem-Grid aem-Grid--12">
-                        <div class="aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--phone--12 Sweat-wicking">
+                        <div class="aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--phone--12 Sweat-wicking">
                             <h4>{product.title}</h4>
                             <h5>Description</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore dolore magna lorem ipsum dolor sit amet ipsum dolor sit amet, consectetur. Duis tristique sollicitudin nibh sit amet. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus.</p>
+                       <hr/>
                         </div>
-                        <div class="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12">
-                            <div className='Dtl'>
-                                <h5> Details</h5>
-                                <h6> < TbLeaf />Sweat-wicking</h6>
-                                <h6> < TbLeaf/>Breathable</h6>
-                            </div>
-                        </div>
-                        <div class="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12">
-                            <div className='dtl_1'>
-                                <h6> < TbLeaf />Lightweight fabric</h6>
-                                <h6 className='dtl_2'>< TbLeaf />69% nylon, 31% lycra</h6>
-                            </div>
+                    
                         </div>
                     </div>
-                </div>
-
+              
             </>
         )
     }

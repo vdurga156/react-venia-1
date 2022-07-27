@@ -24,7 +24,7 @@ const Navbar = ({ setCategory, selectedCategory, ...props }) => {
     return (
        
         <div className='nav_1' >
-            <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+            <nav className="navbar navbar-expand-sm bg-#E26A2C navbar-dark py-3 shadow-sm">
                 <div className="container">
                     <NavLink className="navbar-brand fs-4" to="/"><span>V</span>ENIA</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

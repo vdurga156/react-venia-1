@@ -14,6 +14,9 @@ $navclr:#1B252C;
     font-size: 16px;
     padding-right: 20px;
 }
+.nav_1{
+  background-color: #E26A2C;
+}
 .signin{
     text-decoration: $login;
     color:$navclr;
@@ -46,7 +49,7 @@ $navclr:#1B252C;
         line-height: 1em;
         font-family: Helvetica, Arial, sans-serif;
         
-        background: linear-gradient(to right, #1c87c9 50%, black 50%);
+        background: linear-gradient(to right, #E26A2C 50%, white 50%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -66,26 +69,6 @@ $navclr:#1B252C;
       top: 10px;
       left: 156px !important;
     }
-    // .asg{
-    //   padding-left: 170px;
-    
-    // }
-    // .asc{
-    //   padding-left: 160px;
-    // }
-    // .asc{
-    //   display:none;
-    // }
-    // .buttons{
-    //   padding-right:50px;
-    // }
- 
-  // .buttons .login{
-  //   padding-right: 181px;
-  // // }
-  // .sri{
-  //   margin-left:40px;
-  // }
     }
 
 

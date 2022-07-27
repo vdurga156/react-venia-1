@@ -11,93 +11,21 @@ function Filter() {
                     </div>
                     <hr/>
                     <div className='attribute'>
-                        <h6>Attribute</h6>
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>X-Small</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Small</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Medium</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Large</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>X-Large</label> <br />
-                        <div className='more'>
-                            <a href="#show" class="">
-                                show more
-                            </a>
-                        </div>
-                        <hr />
-                    </div>
-                    <div>
-                        <h6>Attribute</h6>
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>OnePlus</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Redmi</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Amazon</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>boAt</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>realme</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Fire-Boltt</label> <br />
-                        <hr />
-                    </div>
 
-
-                    <div>
-                        <div>
-                            <h6>Color</h6>
-                        </div>
-                        <div className='filter_colors'>
-                            <button class="btnclr"></button><br />
-                            <button class="btnclr1"></button>
-                            <button class="btnclr2"></button>
-                            <button class="btnclr3"></button>
-                        </div>
-                        <br />
-                        <div className='filter_colors'>
-                            <button class="btnclr4"></button><br />
-                            <button class="btnclr5"></button>
-                            <button class="btnclr6"></button>
-                            <button class="btnclr7"></button>
-                        </div>
-                        <br />
-                        <div className='filter_colors'>
-                            <button class="btnclr"></button><br />
-                            <button class="btnclr9"></button>
-                            
-
-                        </div>
-
-
+                        <h6>Categories</h6>
+                        <input type="checkbox" id="option" name="option" value="option" />
+                <label>Jewellery</label> <br />
+                <input type="checkbox" id="option" name="option" value="option" />
+                <label>Electronics</label> <br />
+                <input type="checkbox" id="option" name="option" value="option" />
+                <label>Men's Clothing</label> <br />
+                <input type="checkbox" id="option" name="option" value="option" />
+                <label>Women's Clothing</label> <br />
                     </div>
+</div>
+</div>
 
-<hr/>
-                    <div>
-                        <h6>Attribute</h6>
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Accessories</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Photography</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Vehicle Electronics</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Home AudioHome </label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Portable Media Players</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Tablets</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Portable Media Players</label> <br />
-                        <input type="checkbox" id="option" name="option" value="option" />
-                        <label>Vehicle Electronics</label> <br />
-                        <hr />
-                    </div>
-                    </div>
-                    </div>
+                 
     )
 }
 
