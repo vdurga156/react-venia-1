@@ -13,6 +13,7 @@ import Signin from './component/Signin';
 import Signout from './component/Signout';
 import Signup from "./component/Create";
 import Navbardesc from './component/Navbardesc';
+import Landing from './component/Landing';
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -48,6 +49,7 @@ function App() {
       <Navbar countCartItems={cartItems.length} setCategory={setCategory} selectedCategory={category} />
       <Navbardesc countCartItems={cartItems.length} setCategory={setCategory} selectedCategory={category} />
       <Routes>
+      <Route exact path='/Landing'element={<Landing />} />
         <Route exact path='/' element={<Header category={category} />} />
         <Route exact path='/about' element={<Detail />} />
         <Route exact path='/filter'element={<Filter />} />

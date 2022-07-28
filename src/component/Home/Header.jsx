@@ -1,6 +1,6 @@
 import React from 'react'
 import Productlist from './Productlist';
-import Filter from './/Filter';
+import Filter from './Filter';
 import Title from './Title';
 import Breadcrumb from './Breadcrumb';
 
