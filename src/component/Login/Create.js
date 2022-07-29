@@ -1,7 +1,7 @@
 import { Component } from "react";
-import "../Style/Create.scss"
-import user from "../Images/user.jpg"
-import arrowleft from "../Images/arrow-left.jpg"
+import "../../Style/Create.scss"
+import user from "../../Images/user.jpg"
+import arrowleft from "../../Images/arrow-left.jpg"
 import { Link } from "react-router-dom";
 
 class Create extends Component {

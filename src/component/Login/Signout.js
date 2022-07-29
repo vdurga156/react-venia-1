@@ -1,7 +1,7 @@
 import React from 'react'
-import "../Style/Signout.scss"
-import user from "../Images/user.jpg"
-import arrowleft from "../Images/arrow-left.jpg"
+import "../../Style/Signout.scss"
+import user from "../../Images/user.jpg"
+import arrowleft from "../../Images/arrow-left.jpg"
 import { Link } from "react-router-dom";
 
 function Signout() {

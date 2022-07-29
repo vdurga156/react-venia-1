@@ -1,19 +1,20 @@
 import './App.css';
-import Header from './component/Header';
-import Navbar from './component/Navbar';
+import Header from './component/Home/Header';
+import Navbar from './component/Home/Navbar';
 import { Routes, Route } from 'react-router-dom';
-import Productlist from './component/Productlist';
-import Product from './component/Product';
-import Basket from './component/Basket';
+import Productlist from './component/Product-page/Productlist';
+import Product from './component/Product-page/Product';
+import Basket from './component/Login/Basket';
 import { useEffect, useState } from 'react';
-import Detail from './component/Detail';
-import Filter from './component/Filter';
-import Footer from './component/Footer';
-import Signin from './component/Signin';
-import Signout from './component/Signout';
-import Signup from "./component/Create";
-import Navbardesc from './component/Navbardesc';
-import Landing from './component/Landing';
+import Detail from './component/Home/Detail';
+import Filter from './component/Product-page/Filter';
+import Footer from './component/Home/Footer';
+import Signin from './component/Login/Signin';
+import Signout from './component/Login/Signout';
+import Signup from "./component/Login/Create";
+import Navbardesc from './component/Home/Navbardesc';
+import Landing from './component/Home/Landing';
+import Checkout from './component/Login/Checkout';
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -46,10 +47,11 @@ function App() {
   const getCategory = () => category;
   return (
     <>
+     <Checkout/> 
       <Navbar countCartItems={cartItems.length} setCategory={setCategory} selectedCategory={category} />
       <Navbardesc countCartItems={cartItems.length} setCategory={setCategory} selectedCategory={category} />
       <Routes>
-      <Route exact path='/Landing'element={<Landing />} />
+      <Route exact path='/Landing'element={<Landing  category={category} />} />
         <Route exact path='/' element={<Header category={category} />} />
         <Route exact path='/about' element={<Detail />} />
         <Route exact path='/filter'element={<Filter />} />

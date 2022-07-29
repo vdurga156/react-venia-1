@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import Skeleton from 'react-loading-skeleton';
 import ReactPaginate from 'react-paginate';
-import heart from "../Images/heart.jpg";
-import "../Style/Productlist.scss"
+import heart from '../../Images/heart.jpg'
+import '../../Style/Productlist.scss'
 
 
 const itemsPerPage = 12;

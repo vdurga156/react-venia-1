@@ -1,7 +1,7 @@
 import React from 'react'
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
-import "../Style/Filter.scss"
+import "../../Style/Filter.scss"
 
 function Breadcrumb() {
   return (

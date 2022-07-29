@@ -1,8 +1,8 @@
 import React from 'react'
-import Productlist from './Productlist';
-import Filter from './Filter';
-import Title from './Title';
-import Breadcrumb from './Breadcrumb';
+import Productlist from '../Product-page/Productlist';
+import Filter from '../Product-page/Filter';
+import Title from '../Home/Title';
+import Breadcrumb from '../Product-page/Breadcrumb';
 
 function Header({ category }) {
     return (

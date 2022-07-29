@@ -1,7 +1,7 @@
 import { Component } from "react";
-import user from "../Images/user.jpg"
-import arrowleft from "../Images/arrow-left.jpg"
-import "../Style/Signin.scss"
+import user from "../../Images/user.jpg"
+import arrowleft from "../../Images/arrow-left.jpg"
+import "../../Style/Signin.scss"
 import { Link } from "react-router-dom";
 
 

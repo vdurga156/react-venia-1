@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Style/Navbar.scss"
+import "../../Style/Navbar.scss"
 import { NavLink } from "react-router-dom";
 
 import { FiSearch, FiShoppingBag, FiUser } from "react-icons/fi";

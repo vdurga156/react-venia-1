@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Style/Navbardesc.css"
+import "../../Style/Navbardesc.css"
 import { FiShoppingBag, FiSearch } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 
