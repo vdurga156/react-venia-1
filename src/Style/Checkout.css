@@ -1,4 +1,76 @@
+* {
+  font-family: Source Serif Pro, Semibold;
+}
+
+.guestcheckout h4 {
+  font: normal normal 600 30px/30px Source Serif Pro;
+}
+
+.btn-shipping-1 {
+  margin-bottom: 30px;
+}
+
 .pricing-card {
-  padding-left: 185px;
+  margin-left: 185px;
+  border: 1px solid #D1D3D6;
+  padding: 10px;
+}
+
+.signin-check {
+  margin-left: 185px;
+  border: 1px solid #D1D3D6;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.signin-check h5 {
+  font: normal normal 600 15px/20px Muli;
+}
+
+.signin-check .signin-btn {
+  color: #E26A2C;
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid #E26A2C;
+  width: 100px;
+  height: 30px;
+}
+
+.signin-check .signin-btn p {
+  font-size: 10px;
+  color: #E26A2C;
+}
+
+.h18 {
+  width: -1px;
+}
+
+.btn-shipping-1 {
+  text-align: center;
+  margin-left: 200px;
+  height: 40px;
+  border: 2px solid #D4703D;
+}
+
+.btn-shipping-1 p {
+  font-size: 10px;
+  color: #E26A2C;
+  padding: 10px;
+}
+
+.main-text {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.container-Checkout hr {
+  height: 0.5rem !important;
+  width: 5%;
+  background-color: #E26A2C !important;
+  margin-bottom: 3rem;
+  margin-left: 38rem !important;
+  opacity: 3;
 }
 /*# sourceMappingURL=Checkout.css.map */

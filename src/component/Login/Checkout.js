@@ -7,15 +7,19 @@ import '../../Style/Checkout.scss'
 
 
 export default function Checkout() {
-    // const { cartItems, onAdd, onRemove } = props;
-    // const itemsPrice = cartItems.reduce((a, c) => a + c.qty * c.price, 0);
-    // const taxPrice = itemsPrice * 0.14;
-    // const shippingPrice = itemsPrice > 2000 ? 0 : 20;
-    // const totalPrice = itemsPrice + taxPrice + shippingPrice;
   return (
    <div className='container'>
+   <div className='container-Checkout'>
+    <h5 className='main-text'>Checkout</h5>
+    <hr/>
+    </div>
     <div class="aem-Grid aem-Grid--12">
     <div class="aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--phone--12">
+ <div className='guestcheckout'>
+  <h4>Guest Checkout</h4>
+  <p>Contact information</p>
+  <p>We’ll use these details to keep you informed on your delivery.</p>
+ </div>
     <Form>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
@@ -84,16 +88,35 @@ export default function Checkout() {
         </Form.Group>
       </Row>
 
-      <Form.Group className="mb-3" id="formGridCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group>
-
-      <Button variant="primary" type="submit">
-        Submit
-      </Button> 
     </Form>
+    <button className='btn-shipping-1'><p>CONTINUE TO SHIPPING METHOD</p></button>
+    <Form>
+    <Row className ="mb-4">
+      <Form.Group as={Col} controlId="formGridState">
+         
+          <Form.Select  >
+            <option>2. Shipping Method</option>
+           
+          </Form.Select>
+          <Form.Select >
+            <option>3. Payment Information</option>
+            <option>...</option>
+          </Form.Select>
+        </Form.Group>
+        </Row>
+        </Form>
     </div>
     <div class="aem-GridColumn aem-GridColumn--default--5 aem-GridColumn--phone--12">
+  <div className='signin-check'>
+  <div className="aem-Grid aem-Grid--12">
+                <div className="aem-GridColumn aem-GridColumn--default--6 ">
+    <h5>Sign in for Express <br/>Checkout</h5>
+    </div>
+    <div className="aem-GridColumn aem-GridColumn--default--6 ">
+    <button className='signin-btn'><p>SIGN IN</p></button>
+    </div>
+    </div>
+  </div>
   <div className='pricing-card' >
     <div className="aem-Grid aem-Grid--12">
                 <div className="aem-GridColumn aem-GridColumn--default--6 ">
@@ -101,7 +124,7 @@ export default function Checkout() {
                   <h6>Coupon</h6>
                   <h6>Gift Card</h6>
                   <h6>Estimated tax</h6>
-                  <h6>Estimated shipping</h6>
+                  <h6 className='h18'>Estimated shipping</h6>
                   <h6><strong>Estimated Total</strong></h6>
                 </div>
                 <div className="aem-GridColumn aem-GridColumn--default--6  text-right">
@@ -117,5 +140,6 @@ export default function Checkout() {
     </div>
     </div>
     </div>
+
   );
 }

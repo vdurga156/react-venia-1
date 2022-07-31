@@ -7,14 +7,17 @@ import Product from './component/Product-page/Product';
 import Basket from './component/Login/Basket';
 import { useEffect, useState } from 'react';
 import Detail from './component/Home/Detail';
+import Review from './component/Login/Review';
 import Filter from './component/Product-page/Filter';
 import Footer from './component/Home/Footer';
 import Signin from './component/Login/Signin';
 import Signout from './component/Login/Signout';
 import Signup from "./component/Login/Create";
 import Navbardesc from './component/Home/Navbardesc';
+import Shipping from '../src/component/Login/Shipping'
 import Landing from './component/Home/Landing';
 import Checkout from './component/Login/Checkout';
+import Guestcheckout from './component/Login/Guestcheckout';
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -47,7 +50,8 @@ function App() {
   const getCategory = () => category;
   return (
     <>
-     <Checkout/> 
+    
+    
       <Navbar countCartItems={cartItems.length} setCategory={setCategory} selectedCategory={category} />
       <Navbardesc countCartItems={cartItems.length} setCategory={setCategory} selectedCategory={category} />
       <Routes>
@@ -57,10 +61,14 @@ function App() {
         <Route exact path='/filter'element={<Filter />} />
         <Route exact path='/Productlist' element={<Productlist category="" />} />
         <Route exact path='/signin' element={<Signin />} />
+        <Route exact path='/Guestcheckout' element={<Guestcheckout />} />
+        <Route exact path='/Review' element={<Review />} />
+        <Route exact path='/Checkout' element={<Checkout />} />
         <Route exact path='/signup' element={<Signup />} />
         <Route exact path='/signout' element={<Signout />} />
         <Route exact path='/products/:id' element={<Product onAdd={onAdd} />} />
         <Route exact path='/cart' element={<Basket  cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} />} />
+        <Route exact path='/Shipping' element={<Shipping  cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} />} />
       </Routes>
       <Footer/>
     </>

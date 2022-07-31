@@ -1,6 +1,6 @@
 
 $login:none;
-$navclr:#1B252C;
+$navclr:white;
 
 .buttons{
     font-size:18px;
@@ -24,7 +24,7 @@ $navclr:#1B252C;
     padding-right: 8px;
 }
 .navbar-brand{
-  letter-spacing: 7px;
+  letter-spacing: 3px;
   font-size: 25px;
 }
 .cart{
@@ -39,9 +39,7 @@ $navclr:#1B252C;
     cursor: pointer;
   }
  
-  .navbar-brand{
-    font-family: 'Righteous', cursive;
-  }
+ 
 
   .navbar-brand span{
     display: inline-block;

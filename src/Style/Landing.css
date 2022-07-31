@@ -1,3 +1,7 @@
+* {
+  font-family: Source Serif Pro, Semibold;
+}
+
 .landing_1 {
   background-color: #f1eaea;
   height: 500px;
@@ -24,7 +28,6 @@
 
 .Landing-right img {
   width: 100%;
-  height: 500px;
 }
 
 .landing_2 {
