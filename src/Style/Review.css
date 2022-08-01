@@ -83,4 +83,32 @@
   font: normal normal 600 15px/25px Muli;
   padding-top: 30px;
 }
+
+.h18 {
+  font-size: 12px;
+}
+
+.billing-proof {
+  color: #181C24;
+}
+
+.billing hr {
+  width: 50%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.billing button {
+  text-align: center;
+  margin-left: 200px;
+  height: 40px;
+  border: 2px solid #D4703D;
+  margin-top: 20px;
+}
+
+.billing button p {
+  font-size: 10px;
+  color: #E26A2C;
+  padding: 10px;
+}
 /*# sourceMappingURL=Review.css.map */

@@ -20,7 +20,7 @@ export default function Checkout() {
   <p>Contact information</p>
   <p>We’ll use these details to keep you informed on your delivery.</p>
  </div>
-    <Form>
+    {/* <Form>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Email</Form.Label>
@@ -88,23 +88,38 @@ export default function Checkout() {
         </Form.Group>
       </Row>
 
-    </Form>
+    </Form> */}
+      <div class="aem-Grid aem-Grid--12">
+    <div class="aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--phone--12">
+   
+  <label for="fname">Email</label><br/>
+  <input type="text" id="fname" className="fname"placeholder='abc@xyz.com'/>
+<p className='shipping-info'>1. Shipping Information</p>
+<label for="country">Country</label><br/>
+  <select id="country" className='fname'>
+    <option value="volvo">United States</option>
+    <option value="saab">United States</option>
+    <option value="fiat">United States</option>
+    <option value="audi">United States</option>
+  </select>
+  <label for="fname">First Name</label><br/>
+  <input type="text" id="fname" className="fname"/>
+    </div>
+    <div class="aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--phone--12">
+    <label for="fname"className='firstname'>Phone Number</label><br/>
+  <input type="text" id="fname"className=' fname' placeholder='(222) 222-2222'/>
+
+
+  <label for="lname">Last Name</label><br/>
+  <input type="text" id="fname" className="fname"placeholder='abc@xyz.com'/>
+    </div>
+    </div>
+
     <button className='btn-shipping-1'><p>CONTINUE TO SHIPPING METHOD</p></button>
-    <Form>
-    <Row className ="mb-4">
-      <Form.Group as={Col} controlId="formGridState">
-         
-          <Form.Select  >
-            <option>2. Shipping Method</option>
-           
-          </Form.Select>
-          <Form.Select >
-            <option>3. Payment Information</option>
-            <option>...</option>
-          </Form.Select>
-        </Form.Group>
-        </Row>
-        </Form>
+    <hr/>
+    <p>2. Shipping Method</p>
+             <p>3. Payment Information</p>
+             <hr/>
     </div>
     <div class="aem-GridColumn aem-GridColumn--default--5 aem-GridColumn--phone--12">
   <div className='signin-check'>

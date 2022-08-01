@@ -3,8 +3,6 @@
 }
 
 .card_body {
-  -webkit-box-shadow: 10px 10px 10px lightgrey;
-          box-shadow: 10px 10px 10px lightgrey;
   margin-bottom: 30px;
   margin-top: 20px;
   height: 150px;

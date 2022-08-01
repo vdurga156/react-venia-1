@@ -75,7 +75,7 @@ export default function Landing() {
           </Carousel.Item>
         </Carousel>
       </div>
-      <div className='container'>
+      <div className='container-landing'>
         <div className='landing_2'>
           <div class="aem-Grid aem-Grid--12">
             <div class="aem-GridColumn aem-GridColumn--default--3">
@@ -128,7 +128,7 @@ export default function Landing() {
 
         </div>
       </div>
-      <div className='container'>
+      <div className='container-landing'>
         <div className='landing_3'>
           <div class="aem-Grid aem-Grid--12">
             <div class="aem-GridColumn aem-GridColumn--default--6">
@@ -154,15 +154,15 @@ export default function Landing() {
           </div>
         </div>
       </div>
-      <div className='container'>
+      <div className='container-landing'>
         <div className='landing_4'>
           <div class="aem-Grid aem-Grid--12">
-            <div class="aem-GridColumn aem-GridColumn--default--8">
+            <div class="aem-GridColumn aem-GridColumn--default--7">
               <div className='landing-left'>
                 <img src={landing2} />
               </div>
             </div>
-            <div class="aem-GridColumn aem-GridColumn--default--4">
+            <div class="aem-GridColumn aem-GridColumn--default--5">
               <div className='landing-right'>
                 <h2>Conquer your next adventure</h2>
                 <p>Lorem Ipsum Dolor Tempor</p>

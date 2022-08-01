@@ -11,6 +11,7 @@ import Review from './component/Login/Review';
 import Filter from './component/Product-page/Filter';
 import Footer from './component/Home/Footer';
 import Signin from './component/Login/Signin';
+import Order from './component/Login/Order'
 import Signout from './component/Login/Signout';
 import Signup from "./component/Login/Create";
 import Navbardesc from './component/Home/Navbardesc';
@@ -18,7 +19,7 @@ import Shipping from '../src/component/Login/Shipping'
 import Landing from './component/Home/Landing';
 import Checkout from './component/Login/Checkout';
 import Guestcheckout from './component/Login/Guestcheckout';
-
+import Payment from './component/Login/Payment';
 function App() {
   const [cartItems, setCartItems] = useState([]);
   const [category, setCategory] = useState("");
@@ -62,7 +63,9 @@ function App() {
         <Route exact path='/Productlist' element={<Productlist category="" />} />
         <Route exact path='/signin' element={<Signin />} />
         <Route exact path='/Guestcheckout' element={<Guestcheckout />} />
+        <Route exact path='/Payment' element={<Payment />} />
         <Route exact path='/Review' element={<Review />} />
+        <Route exact path='/Order' element={<Order />} />
         <Route exact path='/Checkout' element={<Checkout />} />
         <Route exact path='/signup' element={<Signup />} />
         <Route exact path='/signout' element={<Signout />} />

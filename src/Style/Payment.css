@@ -1,0 +1,37 @@
+* {
+  font-family: Source Serif Pro, Semibold;
+}
+
+.guest-3 {
+  padding-left: 245px;
+  padding-top: 10px;
+}
+
+.product-desc {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.product {
+  padding-bottom: 2rem;
+}
+
+.main-btn {
+  margin: 38px 272px;
+  width: 180px;
+  border: 1px solid #E26A2C;
+  padding: 8px;
+  background-color: #E26A2C;
+}
+
+.main-btn p {
+  color: white;
+  font-size: 12px;
+}
+
+.main-p {
+  color: #172026;
+  text-align: center;
+  font-size: 10px;
+}
+/*# sourceMappingURL=Payment.css.map */

@@ -10,6 +10,26 @@
   margin-bottom: 30px;
 }
 
+.fname {
+  width: 90%;
+  border-radius: 3px;
+  border: 1px solid #B5B7BC;
+}
+
+.firstname {
+  margin-left: 0px;
+}
+
+.shipping-info {
+  color: #172026;
+  font: normal normal 400 15px/10px Muli;
+  margin-top: 10px;
+}
+
+.lname {
+  margin-top: 200px;
+}
+
 .pricing-card {
   margin-left: 185px;
   border: 1px solid #D1D3D6;
@@ -43,6 +63,7 @@
 
 .h18 {
   width: -1px;
+  font-size: 12px;
 }
 
 .btn-shipping-1 {

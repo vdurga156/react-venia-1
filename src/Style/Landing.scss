@@ -10,6 +10,9 @@
     width:500px;
     padding-top: 80px;
     background-color: rgb(241, 234, 234);
+    h2{
+        font: normal normal 600 30px/50px Source Serif Pro;
+    }
 }
 .Landing_left button{
     font-size:12px ;
@@ -51,6 +54,12 @@
 .landing_3 .Landing_left{
     background-color: white;
  
+
+    margin: 0px;
+    padding-left: 0px;
+}
+.landing_3 .Landing_left p{
+    width:80%;
 }
 
 .landing_3{
@@ -63,7 +72,17 @@
     padding:0;
     margin-bottom: 0px;
     margin-top:0px;
+    opacity:1;
 }
+.container-landing{
+    width:70%;
+    margin:auto;
+}
+.landing_3 .Landing_left{
+    padding-top: 15px;
+}
+
+.landing_3{margin-bottom: -46px}
 .landing_3 .btn_1{
     border: 2px solid #D4703D;
     background-color: white;
@@ -72,6 +91,7 @@
     margin-right:15px;
    
 }
+
 .landing_3 .btn_1 p{
     color:#D4703D;
     font-size: 10px;
@@ -92,11 +112,12 @@
     opacity: 3;
 }
 .landing_4{
-    margin-top: 107px;
+   
     margin-bottom:107px;
 }
 .landing_4 .landing-left img{
     width:100%;
+   
 }
 .landing_4 .landing-right{
     background-color: black;
@@ -106,7 +127,8 @@
     font-size: 28px;
     width: 326px;
     padding-left:108px;
-    padding-top:100px;
+    padding-top:65px;
+    font: normal normal 600 30px/50px Source Serif Pro;
 }
 .landing_4 .landing-right p{
     color:white;
@@ -125,15 +147,16 @@
     margin-left: -100px;
 }
 .landing_4 .landing-right{
-    height:420px;
-    width:100%;
-    margin-top:-10px;
+    height: 329px;
+    width: 100%;
+    margin-top: -15px;
 }
+
 
 .landing_4 hr{
     background-color: #E26A2C;
     margin-left: -3rem;
-    margin-top: 1.3rem;
+    margin-top:-0.8rem;
     height: 0.5rem !important;
     width: 22%;
     opacity: 3;

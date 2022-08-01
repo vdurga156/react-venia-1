@@ -66,7 +66,7 @@ export default function Review() {
                 <h6>Coupon</h6>
                 <h6>Gift Card</h6>
                 <h6>Estimated tax</h6>
-                <h6>Estimated shipping</h6>
+                <h6 className='h18'>Estimated shipping</h6>
                 <h6><strong>Estimated Total</strong></h6>
               </div>
               <div className="aem-GridColumn aem-GridColumn--default--6  text-right">
@@ -112,6 +112,15 @@ export default function Review() {
             </Form.Group>
           </Row>
         </div >
+       
+      </div>
+     <div className='billing'>
+     <input type="checkbox" id="html" value="HTML" />
+      <label for="html" className='billing-proof'>Billing address same as shipping address</label>
+     
+      <hr/><input type="radio" id="html" value="HTML" />
+      <label for="html" className='billing-proof'>PayPal</label><hr/>
+      <button><p>CONTINUE TO REVIEW ORDER</p></button>
       </div>
     </div>
   )
