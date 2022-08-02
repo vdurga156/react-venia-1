@@ -19,6 +19,7 @@ import Shipping from '../src/component/Login/Shipping'
 import Landing from './component/Home/Landing';
 import Checkout from './component/Login/Checkout';
 import Guestcheckout from './component/Login/Guestcheckout';
+
 import Payment from './component/Login/Payment';
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -56,10 +57,10 @@ function App() {
       <Navbar countCartItems={cartItems.length} setCategory={setCategory} selectedCategory={category} />
       <Navbardesc countCartItems={cartItems.length} setCategory={setCategory} selectedCategory={category} />
       <Routes>
-      <Route exact path='/Landing'element={<Landing  category={category} />} />
-        <Route exact path='/' element={<Header category={category} />} />
+      <Route exact path='/'element={<Landing   />}/>        
+        <Route exact path='/Header' element={<Header category={category} />}/>
         <Route exact path='/about' element={<Detail />} />
-        <Route exact path='/filter'element={<Filter />} />
+       <Route exact path='/filter'element={<Filter />} />
         <Route exact path='/Productlist' element={<Productlist category="" />} />
         <Route exact path='/signin' element={<Signin />} />
         <Route exact path='/Guestcheckout' element={<Guestcheckout />} />

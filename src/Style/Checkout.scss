@@ -15,6 +15,24 @@
 .firstname{
    margin-left:0px;
 }
+.f1name{
+    width:40%;
+    border-radius: 3px;
+    border:1px solid #B5B7BC;
+}
+.f2name{
+    width:45%;
+    border-radius: 3px;
+    border:1px solid #B5B7BC;
+    margin-left:5px
+}
+.last12{
+    margin-top: 92px;
+
+}
+.state{
+    display:flex;
+}
 .shipping-info{
     color:#172026;
     font: normal normal 400 15px/10px Muli;

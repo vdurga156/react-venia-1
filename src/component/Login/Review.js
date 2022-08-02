@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../../Style/Review.scss';
+import {Link} from 'react-router-dom';
 export default function Review() {
   return (
     <div className='container'>
@@ -120,7 +121,7 @@ export default function Review() {
      
       <hr/><input type="radio" id="html" value="HTML" />
       <label for="html" className='billing-proof'>PayPal</label><hr/>
-      <button><p>CONTINUE TO REVIEW ORDER</p></button>
+      <button><p><Link to="/Payment">CONTINUE TO REVIEW ORDER</Link></p></button>
       </div>
     </div>
   )

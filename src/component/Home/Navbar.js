@@ -1,10 +1,16 @@
 import React from 'react';
 import "../../Style/Navbar.scss"
 import { NavLink } from "react-router-dom";
-
+import {Link } from "react-router-dom";
 import { FiSearch, FiShoppingBag, FiUser } from "react-icons/fi";
 
-const categories = [{
+const categories = [
+    {
+
+        filter: "Landing",
+        displayName: <Link to="/Header">Home</Link>
+    },
+   ,{
 
     filter: "women's clothing",
     displayName: 'Women'

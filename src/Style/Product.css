@@ -73,8 +73,7 @@
   width: 300px;
   height: 40px;
   background: var(--primary-brand) 0% 0% no-repeat padding-box;
-  background: #1F39FF 0% 0% no-repeat padding-box;
-  border-radius: 28px;
+  background: #E26A2C 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -152,6 +151,9 @@ p {
     margin-top: -73px;
     margin-bottom: -96px;
   }
+  .fourset {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1020px) {
@@ -163,6 +165,9 @@ p {
   }
   .Producttitle {
     text-align: center;
+  }
+  .fourset {
+    display: none;
   }
 }
 /*# sourceMappingURL=Product.css.map */

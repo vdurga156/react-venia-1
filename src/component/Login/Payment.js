@@ -1,7 +1,7 @@
 
 import React from 'react'
 import edit from '../../Images/edit-2.jpg';
-
+import {Link} from 'react-router-dom';
 import '../../Style/Payment.scss';
 
 export default function Payment() {
@@ -100,7 +100,7 @@ export default function Payment() {
                 </div>
                 </div>
                </div>
-            <button className='main-btn'><p>PLACE ORDER</p></button>
+            <button className='main-btn'><p><Link to="/Order">PLACE ORDER</Link></p></button>
             <p className='main-p'>By clicking confirm order you agree to our <u>Terms and Conditions</u></p>
           </div>
         </div>

@@ -5,6 +5,7 @@ import { RiPencilLine } from 'react-icons/ri';
 import { FiLock, FiTrash2 } from 'react-icons/fi';
 import Accordian from '../Product-page/Accordian';
 import paypal from '../../Images/paypall-button.png';
+import {Link} from 'react-router-dom';
 export default function Basket(props) {
   const { cartItems, onAdd, onRemove } = props;
   const itemsPrice = cartItems.reduce((a, c) => a + c.qty * c.price, 0);
@@ -90,10 +91,10 @@ export default function Basket(props) {
               <div className="first_button">
                 <div>
                   <button
-                    onClick={() => alert("Implement Checkout!")}
+                  
                     className="check"
                   >
-                    <FiLock size={18} />&nbsp;&nbsp;CHECKOUT
+                    <FiLock size={18} />&nbsp;&nbsp;<Link to="/Checkout">CHECKOUT</Link>
                   </button>
                 </div>
                 <div>

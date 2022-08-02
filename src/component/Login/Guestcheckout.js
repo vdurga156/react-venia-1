@@ -1,6 +1,7 @@
 import React from 'react'
 import edit from '../../Images/edit-2.jpg';
 import '../../Style/Guestcheckout.scss';
+import {Link} from 'react-router-dom';
 export default function Guestcheckout() {
   return (
     <>
@@ -45,7 +46,7 @@ export default function Guestcheckout() {
                 <label for="html">Express Delivery (2-5 business days via USPS) $17.95</label><br/>
                 <input type="radio" id="html" value="HTML"/>
                 <label for="html">Next Day Delivery (Next business days via FedEx) $53.61</label><br/>
-                  <button className='main-btn'><p>CONTINUE TO PAYMENT</p></button>
+                  <button className='main-btn'><p><Link to="/Review">CONTINUE TO PAYMENT</Link></p></button>
                   <p>3. Payment Information</p>
                 </div></div>
 
