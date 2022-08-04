@@ -18,7 +18,7 @@ const categories = [{
     displayName: 'Accessories'
 },
 ]
-const Navbardesc = ({ setCategory, selectedCategory, ...props }) => {
+const Navbarone = ({ setCategory, selectedCategory, ...props }) => {
     return (
         <div className='navbar-one-one'>
             <div class="navbar">
@@ -29,7 +29,7 @@ const Navbardesc = ({ setCategory, selectedCategory, ...props }) => {
                         <span class="line line2"></span>
                         <span class="line line3"></span>
                     </div>
-                    <div class="logo">
+                    <div class="Vlogo">
 
                         <div className='veniaicon'>
                             <h1><NavLink to="/">VENIA</NavLink></h1>
@@ -40,13 +40,13 @@ const Navbardesc = ({ setCategory, selectedCategory, ...props }) => {
                         <NavLink to="/cart" className="cart">
                             {' '}
                             {props.countCartItems ? (
-                                <p className="btn">{props.countCartItems}</p>
+                                <p className="btn btn-success">{props.countCartItems}</p>
                             ) : (
                                 ''
                             )}
                         </NavLink>{' '}
                     </div>
-                    <div class="menubar">
+                    <div class="menu-items">
                         <ul className="">
                             {
                                 categories?.map(category =>
@@ -63,4 +63,4 @@ const Navbardesc = ({ setCategory, selectedCategory, ...props }) => {
     )
 }
 
-export default Navbardesc
+export default Navbarone

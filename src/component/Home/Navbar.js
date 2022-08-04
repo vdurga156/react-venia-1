@@ -3,6 +3,7 @@ import "../../Style/Navbar.scss"
 import { NavLink } from "react-router-dom";
 import {Link } from "react-router-dom";
 import { FiSearch, FiShoppingBag, FiUser } from "react-icons/fi";
+import venia from '../../Images/venia.png'
 
 const categories = [
     {
@@ -32,7 +33,7 @@ const Navbar = ({ setCategory, selectedCategory, ...props }) => {
         <div className='nav_1' >
             <nav className="navbar navbar-expand-sm bg-#E26A2C navbar-dark py-3 shadow-sm">
                 <div className="container">
-                    <NavLink className="navbar-brand" to="/">VENIA</NavLink>
+                    <NavLink className="navbar-brand" to="/Landing"><img src={venia}className="local"/></NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

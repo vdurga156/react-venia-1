@@ -216,8 +216,7 @@ span.carousel-control-next-icon {
     opacity: 3;
     height: 6px;
     padding: 0;
-    // margin-bottom: 0px;
-    // margin-top: 0px;
+   
 }
 
 .landing_3 .btn_1 {
@@ -259,6 +258,7 @@ span.carousel-control-next-icon {
     height: 0.5rem !important;
     width: 22%;
     opacity: 3;
+    margin-left: -3rem;
 }
 
 .landing_4 .landing-left img {
@@ -320,6 +320,7 @@ text-align: center;
 .lines hr {
     width: 88%;
     margin: 4rem 1rem;
+
 }
 
 .landing_2 .landimg2 hr {
@@ -415,10 +416,13 @@ text-align: center;
     opacity: 2;
     width: 252px;
     bottom: 97px;
-    margin-left: 107px;
+    // margin-left: 107px;
+    // margin-top: 9rem;
+}
+.card_1 hr{
+     margin-left: 107px;
     margin-top: 9rem;
 }
-
 
 .landing_4 hr {
     

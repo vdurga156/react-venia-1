@@ -19,6 +19,7 @@ body {
 .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  /* background-color: aqua; */
 }
 
 .nav-container {
@@ -28,7 +29,7 @@ body {
   height: 62px;
 }
 
-.navbar .menubar {
+.navbar .menu-items {
   display: flex;
   background-color: whitesmoke;
 }
@@ -40,11 +41,11 @@ body {
 .navbar .nav-container a {
   text-decoration: none;
   color: #0e2431;
- 
+
 }
 
-.navbar .nav-container a:hover{
-    font-weight: bolder;
+.navbar .nav-container a:hover {
+  font-weight: bolder;
 }
 
 .nav-container {
@@ -100,10 +101,10 @@ body {
   transition: transform 0.4s ease-in-out;
 }
 
-.navbar .menubar{
-  padding-top: 120px;
+.navbar .menu-items {
+  padding-top: 97px;
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-  height: 97vh;
+  height: 120vh;
   width: 197%;
   transform: translate(-150%);
   display: flex;
@@ -114,69 +115,88 @@ body {
   text-align: center;
 }
 
-.navbar .menubar li {
+.navbar .menu-items li {
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
 }
 
+.menu-items li {
+  color: black;
+}
 
-.logo {
+.Vlogo {
   position: absolute;
   top: 10px;
   left: -57px;
   font-size: 1.2rem;
   color: #0e2431;
   padding: 0px 7.5rem;
-    display: flex;
-}
-.searchicicon{
-    position: relative;
-    left: 108px;
-    bottom: -6px;
+  display: flex;
 }
 
-.veniaicon{
+.searchicicon {
+  position: relative;
+  left: 97px;
+  bottom: -6px;
+}
+
+.veniaicon {
   position: relative;
   top: 2px;
   left: 60px;
 }
 
-.nav-container input[type="checkbox"]:checked ~ .menubar {
+.nav-container input[type="checkbox"]:checked~.menu-items {
   transform: translateX(0);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
   transform: rotate(45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
   transform: scaleY(0);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
   transform: rotate(-45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .logo{
+.nav-container input[type="checkbox"]:checked~.Vlogo {
   display: none;
 }
-.navbar-one-one{
-  display:none;
+
+.navbar-one-one {
+  display: none;
 }
+
+@media only screen and (max-width:320px) {
+  .static {
+    padding: 3rem 0rem;
+  }
+
+  .cart {
+    margin-left: 0rem;
+    padding-left: 7rem;
+  }
+}
+
 @media only screen and (max-width:993px) {
   .navbar-one-one {
-        display: block !important;
-      }
-      
+    display: block !important;
+  }
+
 }
+
 @media only screen and (min-width: 767px) and (max-width: 1020px) {
   .searchicicon {
     position: relative;
     left: 22rem;
     bottom: -6px;
   }
-  .navbar .menubar {
+
+  .navbar .menu-items {
     width: 453%;
   }
 }
