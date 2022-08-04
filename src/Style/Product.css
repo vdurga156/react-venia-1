@@ -69,6 +69,59 @@
   padding-top: 0px !important;
 }
 
+.one {
+  border-radius: 9px;
+  float: left;
+  width: 84px;
+  text-align: center;
+  height: 30px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #d3d3d3;
+}
+
+.static .start {
+  float: left;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #d3d3d3;
+  border-radius: 50%;
+}
+
+.static {
+  padding-bottom: 1rem;
+}
+
+.static .end {
+  float: left;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #d3d3d3;
+  border-radius: 50%;
+}
+
+.size span {
+  float: left;
+  width: 60px;
+  text-align: center;
+  height: 30px;
+  margin-right: 1rem;
+  margin-bottom: 10px;
+  border: 2px solid #d3d3d3;
+  border-radius: 7px;
+}
+
+.qty {
+  padding: 1.5rem;
+  margin-left: -1rem;
+}
+
 .cart-add {
   width: 300px;
   height: 40px;

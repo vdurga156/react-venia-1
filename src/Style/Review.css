@@ -15,6 +15,10 @@
   border: 1px solid #D1D3D6;
 }
 
+.billing-proof {
+  font: normal normal normal 16px/22px Muli;
+}
+
 .guest-2 {
   border: 1px solid #D1D3D6;
   margin-top: 10px;
@@ -51,11 +55,16 @@
   color: #172026;
 }
 
-.main-btn {
-  margin: 38px 272px;
-  width: 180px;
-  border: 1px solid #E26A2C;
-  padding: 8px;
+.pay1 p {
+  font: normal normal 600 20px/25px Muli;
+}
+
+.mb-3 {
+  font: normal normal 600 16px/24px Muli;
+}
+
+.d1 {
+  font: normal normal normal 16px/24px Muli;
 }
 
 .main-btn p {
@@ -70,10 +79,18 @@
   padding-top: 20px;
 }
 
+.check-3 {
+  background: white;
+  border: 2px solid #E26A2C;
+  height: 41px;
+  width: 257px;
+  position: relative;
+  left: 251px;
+}
+
 .container-Checkout hr {
   height: 0.5rem !important;
   width: 5%;
-  background-color: #E26A2C !important;
   margin-bottom: 3rem;
   margin-left: 38rem !important;
   opacity: 3;
@@ -84,31 +101,7 @@
   padding-top: 30px;
 }
 
-.h18 {
-  font-size: 12px;
-}
-
-.billing-proof {
-  color: #181C24;
-}
-
-.billing hr {
-  width: 50%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.billing button {
-  text-align: center;
-  margin-left: 200px;
-  height: 40px;
-  border: 2px solid #D4703D;
-  margin-top: 20px;
-}
-
-.billing button p {
-  font-size: 10px;
-  color: #E26A2C;
-  padding: 10px;
+.check-3 p {
+  font: normal normal bold 14px/16px Muli;
 }
 /*# sourceMappingURL=Review.css.map */

@@ -12,26 +12,42 @@
   padding-bottom: 2rem;
 }
 
-.product {
+.product-desc h6 {
+  font: normal normal normal 16px/24px Muli;
+}
+
+.product-desc h5 {
+  font: normal normal 600 16px/20px Muli;
+}
+
+.checkout-pro {
   padding-bottom: 2rem;
 }
 
-.main-btn {
-  margin: 38px 272px;
-  width: 180px;
-  border: 1px solid #E26A2C;
-  padding: 8px;
-  background-color: #E26A2C;
+.main-btn1 {
+  background: white;
+  border: 2px solid #E26A2C;
+  height: 41px;
+  width: 257px;
+  position: relative;
+  left: 251px;
+  top: 6px;
 }
 
-.main-btn p {
-  color: white;
-  font-size: 12px;
+.main-btn1 a {
+  color: #E26A2C;
 }
 
 .main-p {
-  color: #172026;
+  font: normal normal normal 16px/24px Muli;
+  position: relative;
+  top: 60px;
   text-align: center;
-  font-size: 10px;
+}
+
+.checkout-pro img {
+  height: 140px;
+  position: relative;
+  left: 9px;
 }
 /*# sourceMappingURL=Payment.css.map */

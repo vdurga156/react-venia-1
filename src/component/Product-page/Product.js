@@ -82,23 +82,18 @@ const Product = (props) => {
                                 </div>
                             </p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br /> do eiusmod tempor labore et dolore magna. Read more</p>
-                            <hr />
-                            {/* <div className="swatch">
-                                <h5>Colors</h5>
-                                <img src={Swatchone} className="swatchone" alt="image1" />
-                                <img src={Swatchtwo} className="swatchtwo" alt="image2" />
-                                <img src={Swatchthree} className="swatchthree" alt="image2" />
-                                <img src={Swatchfour} className="swatchfour" alt="image2" />
-                            </div> */}
-                            {/* <div className="btnsize">
-                                <h5>Size</h5>
-                                <button type="button" >XS</button>
-                                <button type="button">S</button>
-                                <button type="button" >M</button>
-                                <button type="button" >L</button>
-                                <button type="button" >XL</button>
-                            </div> */}
+                           
+                           
                   <br/>
+                  <div className='static'>
+                                <h5 class="qty">Quantity</h5>
+                                <div class="static1">
+                                    <span className='start'>-</span>
+                                    <span className='one'>1</span>
+                                    <span className='end'>+</span>
+                                </div>
+                            </div><br />
+<hr/>
                   
                             <button className="cart-add"
                                 onClick={() => onAdd(product)}

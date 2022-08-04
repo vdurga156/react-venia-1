@@ -7,15 +7,23 @@
   padding-top: 10px;
 }
 
-.guest-2 {
-  border: none;
-}
-
 .guesth3 {
   color: #172026;
-  padding-left: 1rem;
-  margin: 0px;
-  font: normal normal 300 15px/25px Muli;
+}
+
+.checkout5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 53px;
+}
+
+.checkout5 img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  padding-left: 53px;
 }
 
 .product-desc {
@@ -51,22 +59,21 @@
 }
 
 .last-para p {
-  color: #172026;
-  font-size: 13px;
+  font: normal normal normal 16px/24px Muli;
 }
 
 .pricing-card1 {
-  background-color: #FF8243;
-  height: 250px;
+  background-color: #E26A2C;
+  height: 266px;
   width: 250px;
   margin-left: 16rem;
 }
 
 .pricing-card1 p {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 38px;
   color: white;
-  font-size: 20px;
+  font: normal normal 600 36px/45px Source Serif Pro;
 }
 
 .pricing-card1 img {

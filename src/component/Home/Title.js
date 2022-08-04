@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../Style/Title.scss"
-
+import mobilefriend from '../../Images/mobile-hero-image12.jpeg';
 
 function Title() {
   return (
@@ -21,7 +21,7 @@ function Title() {
               </div>
               <div class="aem-GridColumn aem-GridColumn--default--8">
                 <div class="card-img">
-                  <img src="https://img.mensxp.com/media/content/2020/Nov/Abhishek-Bachchans-Masterclass-On-Suiting-Up1400_5fa2a4064015f.jpeg" class="card-img-top" alt="" />
+<img src={mobilefriend} class="card-img-top" alt="" />
                 </div>
               </div>
             </div>
